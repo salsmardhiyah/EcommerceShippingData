@@ -8,6 +8,7 @@
 - Kolom yang memiliki summary aneh:
     - Kolom Weight in gms memiliki selisih nilai mean dan median yang cukup jauh yaitu sebesar 515 yang mengartikan bahwa variabel tersebut memiliki outlier/pencilan.
     - Kolom Mode_of_Shipment memiliki distribusi yang terlalu timpang karena nilai kategori Ship mendominasi, hal tersebut menyebabkan feature tidak akan terlalu berguna dalam klasifikasi
+    - Kolom Discount_offered memiliki selisih nilai mean dan median yang cukup jauh yaitu sebesar 9 yang mengartikan bahwa variabel tersebut memiliki outlier/pencilan. Selain itu dapat dilihat dari nilai min 1 dengan max 65 kalau dilihat rata-rata hanya 13 saja
 
 ## Univariate Analysis
 - Warehouse Block: Persebaran pesanan pada blok A, B, C, D cukup merata sementara blok F memiliki jumlah pesanan yang jauh lebih besar yg bisa mencapai kurang lebih 2x lipat pesana di blok yang lain.
